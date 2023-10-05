@@ -10,8 +10,7 @@
 
 ### Program:
 ```
-create table employeel(empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
-
+create table employeee(employeeid NUMBER, employeename VARCHAR(10),depart VARCHAR(10),salary NUMBER);
 
 ```
 ### Create employee table
@@ -21,8 +20,8 @@ create table employeel(empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salar
 set serveroutput on;
 declare
 cursor employee_cursor is
-select EMPID,EMPNAME,DEPT, SALARY
-from employeel;
+select employeeid,employeename,depart,salary
+from employeee;
 emp_id number;
 emp_name varchar(50);
 emp_dept varchar(50);
