@@ -15,7 +15,7 @@ create table employeel(empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salar
 
 ```
 ### Create employee table
-![output](./b.png)
+![output](./a.png)
 ### PLSQL Cursor code
 ```
 set serveroutput on;
@@ -43,6 +43,6 @@ end;
 /
 ```
 ### Output:
-![output](./a.png)
+![output](./b.png)
 ### Result:
 Thus a cursor is created using PL/SQL successfully.
